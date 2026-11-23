@@ -50,7 +50,3 @@ BEGIN
   LIMIT match_count;
 END;
 $$;
-
--- 3. Demo evidence (D5): the latest scans, as shown during the presentation.
--- SELECT scanned_at, url, final_verdict, risk_score, risk_category, ml_probability, rag_threat_score, scraped_ok
--- FROM url_scans ORDER BY scanned_at DESC LIMIT 10;
